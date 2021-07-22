@@ -6,7 +6,9 @@ namespace LineComparisonProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Line Comparison Problem");
+            Length line = new Length(3, 2, 7, 5);
+            int lineLength = Convert.ToInt32(line.CalculateLength());
+            Console.WriteLine("Length of the line: " + lineLength);
         }
     }
 }
